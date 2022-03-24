@@ -1,0 +1,128 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f1efe9;
+    overflow-x: hidden;
+}
+
+
+h3 {
+    font-family: mrs-eaves-roman-all-petite-c, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #82817d;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+}
+
+li {
+    font-family: mrs-eaves-roman-all-petite-c, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    float: left;
+    margin-left: 10px;
+    width:fit-content;
+    color: #984830;
+}
+
+header {
+    margin: 3%;
+    display: flex;
+    width: 100vw;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.brandListTitle {
+    display: inline;
+    min-width: max-content;
+}
+
+.logo {
+    height: 70%;
+    width: 15%;
+    min-width: 10%;
+    margin: auto;
+    margin-right: 85%;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.shopContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 5%;
+    column-gap: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 50px;
+}
+
+.template {
+    background-color: white;
+    max-width: 100%;
+    min-width: 25%;
+    padding: 5%;
+}
+
+.template > img {
+    max-width: 90%;
+    margin: auto;
+}
+
+.template > h4 {
+    font-family: agenda, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #82817d;
+}
+
+.line {
+    border-bottom: lightgrey 1px solid;
+}
+
+.infoBox {
+    box-shadow: 0.5px 0.5px 1px 1px lightgrey ;
+    padding: 2%;
+    margin-top: 10px;
+}
+
+.specsButton {
+    display: block;
+    font-family: agenda, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #984830;
+    border: #984830 1px solid;
+    padding: 2% 1%;
+    margin: 10px auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.infoBox > span {
+    font-family: agenda, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #82817d;
+    font-size: 1rem;
+}
+
+#price, #colour, #stock {
+    color: black;
+    font-family: mrs-eaves-roman-all-petite-c, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
